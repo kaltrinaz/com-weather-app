@@ -1,3 +1,16 @@
 body{
-   background: linear-gradient(90deg, #139DAC 0%, #50B6C1 35%, #92D1D8 100%,);
+    
+   background: linear-gradient(90deg, #139DAC 0%, #50B6C1 35%, #92D1D8 100%);
+   font-family: "Roboto", serif;
+
+}
+.weather-general{
+
+    background-color: #90d6ed;
+    max-width: 600px;
+    margin:  40px auto;
+    box-shadow: 0 40px 60px #139DAC;
+    border-radius: 10px;
+    padding: 40px;
+    
 }
