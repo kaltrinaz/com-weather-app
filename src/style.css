@@ -4,6 +4,10 @@ body{
    font-family: "Roboto", serif;
 
 }
+a{
+    text-decoration: none;
+    color: blue;
+}
 .weather-general{
 
     background-color: #90d6ed;
@@ -13,4 +17,61 @@ body{
     border-radius: 10px;
     padding: 40px;
     
+}
+header{
+    padding-bottom: 20px;
+}
+.search-input{
+    border-color: #139DAC;
+    border: none;
+    border-radius: 6px;
+    width: 75%;
+    padding: 15px;
+}
+.search-button{
+    background-color: #f9c23c;
+    border: none;
+    border-radius: 6px;
+    padding: 15px 37px;
+    margin-left: 20px;
+    font-size: 15px;
+    
+}
+main{
+    padding-top: 30px;
+}
+.form-results{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    margin: 0;
+    font-size: 2em;
+    line-height: 1em;
+}
+.results-data{
+    display: flex;
+    font-size: 1em;
+    line-height: 1em;
+}
+.weather-data{
+    font-weight: bold;
+    font-size: 5em;
+    margin-top: 35px;
+}
+.weather-icon{
+    font-size: 3em;
+    margin: 30px 11px;
+}
+.weather-unit{
+    font-size: 2em;
+    margin-top: 20px;
+}
+strong{
+    color: blue;
+}
+
+footer{
+    font-size: 13px;
+    padding-top: 70px;
 }

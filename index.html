@@ -13,22 +13,24 @@
     <div class="weather-general">
         <header>
             <form>
-                <input type="search" placeholder="Enter a city..." required/>
-                <input type="submit" value="Search">
+                <input type="search" placeholder="Enter a city..." required class="search-input"/>
+                <input type="submit" value="Search" class="search-button">
             </form>
         </header>
         <main>
-            <div>
+            <div class="form-results">
             <div>
             <h1>London</h1>
             <p>
                 Tuesday 19:40, scattered clouds 
                 <br>
-                Humidity: 59%, Wind: 4.41km/h
+                Humidity: <strong>59%</strong>, Wind: <strong>4.41km/h</strong>
             </p>
             </div>
-        <div>
-            🌤️15°C
+        <div class="results-data">
+           <div class="weather-icon">🌤️</div>
+           <div class="weather-data">15</div> 
+           <div class="weather-unit">°C</div>
         </div>
             </div>
 
