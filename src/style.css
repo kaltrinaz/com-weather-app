@@ -78,6 +78,30 @@ img{
 strong{
     color: blue;
 }
+.weather-forecast{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.forecast-day{
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+  
+}
+.forecast-icon{
+    font-size: 40px;
+    text-align: center;
+}
+.forecast-temperature{
+    display: flex;
+    justify-content: center;
+    color: blue;  
+    padding: 10px;
+}
+.forecast-temperature-low{
+    padding: 0 10px;
+}
 
 footer{
     font-size: 13px;
