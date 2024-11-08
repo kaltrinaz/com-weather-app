@@ -29,13 +29,20 @@ header{
     padding: 15px;
 }
 .search-button{
-    background-color: #f9c23c;
+    background-color: #615A97;
     border: none;
     border-radius: 6px;
     padding: 15px 37px;
     margin-left: 20px;
     font-size: 15px;
+    color: white;
+    cursor: pointer;
     
+}
+.search-button:hover{
+    background-color: white;
+    color: #615A97;
+
 }
 main{
     padding-top: 30px;
@@ -49,6 +56,11 @@ h1{
     font-size: 2em;
     line-height: 1em;
 }
+img{
+    width: 100px; 
+    margin-right: 30px; 
+   
+}
 .results-data{
     display: flex;
     font-size: 1em;
@@ -58,10 +70,6 @@ h1{
     font-weight: bold;
     font-size: 5em;
     margin-top: 35px;
-}
-.weather-icon{
-    font-size: 3em;
-    margin: 30px 11px;
 }
 .weather-unit{
     font-size: 2em;

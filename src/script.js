@@ -8,12 +8,14 @@ function updateTemp(response) {
     let windElement = document.querySelector("#wind");
     let timeElement = document.querySelector("#time");
     let date = new Date(response.data.time * 1000);
-
+    let iconImg = document.querySelector("#weather-icon-url");
     let cityElement = document.querySelector("#search-city");
+
     descriptionElement.innerHTML = response.data.condition.description;
     humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
     windElement.innerHTML = `${response.data.wind.speed}km/h`;
     timeElement.innerHTML = formatDate(date);
+    iconImg.innerHTML = `<img src="${response.data.condition.icon_url}" alt=""></img>`
     cityElement.innerHTML = response.data.city;
 }
 
